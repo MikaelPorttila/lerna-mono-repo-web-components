@@ -1,0 +1,19 @@
+{
+	"files.exclude": {
+		".editorconfig": true,
+		".protractor.conf.js": true,
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.hg": true,
+		"**/.svn": true,
+		"**/CVS": true,
+		"**/packages/*/.cache": true,
+		"**/packages/*/dist": true,
+		"**/packages/*/node_modules": true,
+		"bin": true,
+		"e2e": true,
+		"karma.conf.js": true,
+		"node_modules": true,
+		"obj": true
+	}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "lerna-mono-repo-web-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "lerna run start --scope sandbox --stream",
+    "postinstall": "lerna bootstrap --hoist --no-ci",
+    "build": "lerna run build --concurrency=1 --stream",
+    "test": "lerna run test --stream"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaelPorttila/lerna-mono-repo-web-components.git"
+  },
+  "author": "Mikael Porttila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikaelPorttila/lerna-mono-repo-web-components/issues"
+  },
+  "homepage": "https://github.com/MikaelPorttila/lerna-mono-repo-web-components#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "lerna": "^3.20.1",
+    "parcel": "^1.12.4",
+    "typescript": "^3.8.2"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "solid-component",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Micke <mikael.porttila@gmail.com>",
+  "homepage": "https://github.com/MikaelPorttila/lerna-mono-repo-web-components/tree/master/packages/solid-component#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaelPorttila/lerna-mono-repo-web-components.git"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html --https",
+    "build": "parcel build ./src/index.ts",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/MikaelPorttila/lerna-mono-repo-web-components/issues"
+  },
+  "dependencies": {
+    "solid-element": "^0.16.8",
+    "solid-js": "^0.16.8",
+    "component-register": "^0.6.18",
+    "core": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-plugin-jsx-dom-expressions": "^0.16.3"
+  }
+}
